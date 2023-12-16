@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grazalema tribute</title>
+    <link rel="stylesheet" href="./css/grazalematribute.css">
+    <script src="./js/grazalematribute.js"></script>
+    <link rel="shorcut icon" href="./img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <nav>
+        <div class="topnav" id="myTopnav">
+            <a href="#" class="active">Inicio</a>
+            <a href="#intro">Introducción</a>
+            <a href="#rutas">Rutas</a>
+            <a href="#explora">Explorar</a>
+            <a href="#bandoleros">Bandoleros</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()"> 
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </nav>
+
+    <section id="hero">
+        <section id="herotext">¿Quieres explorar las rutas?</section>
+        <a href="#rutas">
+            <button class="herobutton">Saber más
+                <span></span>
+            </button>
+        </a>
+    </section> 
+    
+    <div id="wrapper">
+        
+        <section class="wrapsection" id="intro">
+            <h1>Introducción</h1>
+            <div class="grid-2"> 
+                <div class="col-2">
+    
+                    <p>Grazalema está situada en el Parque Natural de la Sierra de Grazalema, Cádiz, rodeada de naturaleza y gran cantidad de rutas y paisajes que explorar. En este pueblo podrás disfrutar de las vistas de las rutas, los productos locales y las celebraciones.</p>
+                    
+                    <!--botón orientado a una página secundaria no realizda aún-->
+                    <button class="introbutton">
+                        Leer más
+                    </button>
+                    
+    
+                </div>
+                
+                <div class="col-2">
+                    <img id="introimg" src="./img/grazalemaintrofoto.jpg" alt="Imagen desde lejos del pueblo de Grazalema">
+    
+                </div>
+    
+            </div>
+        </section>
+        
+        <section class="wrapsection" id="rutas">
+            <h1>Rutas</h1>
+
+            <div class="grid-3">
+                <div class="col-3">
+
+
+                    <div class="card">
+                        <img src="./img/cardsrutas/pinsapar.jpg" alt="">
+                        <div class="card__content">
+                            <p class="card__title">Pinsapar</p>
+                            <p class="card__description">
+                                <li>Ruta Grazalema-Benamahoma</li>
+                                <li>Recorrido total: 12 km (solo ida)</li>
+                                <li>Desnivel 200m subida, 800m bajada</li>
+                                <li>Permiso necesario</li>
+                                
+                            </p>
+                            <button class="rutabutton"><strong>+info</strong></button>
+                        </div>
+                    </div>
+
+
+                    <div class="card">
+                        <img src="./img/cardsrutas/llanoendrinal.jpg" alt="">
+                        <div class="card__content">
+                            <p class="card__title">Llano del endrinal</p>
+                            <p class="card__description">
+                                <li>Ruta Grazalema-Llano del endrinal-Puerto del Boyar</li>
+                                <li>Recorrido total: 7,24 km (ida/vuelta)</li>
+                                <li>Desnivel 475m de subida y bajada</li>
+                                <li>Permiso no necesario</li>
+                                
+
+                            </p>
+                            <button class="rutabutton"><strong>+info</strong></button>
+                        </div>
+                    </div>
+
+
+                    <div class="card">
+                        <img src="./img/cardsrutas/cuevadospuertas.jpg" alt="">
+                        <div class="card__content">
+                            <p class="card__title">Cueva de dos puertas</p>
+                            <p class="card__description">
+                                <li>Grazalema-Cueva de las dos puertas</li>
+                                <li>Recorrido total: 5,89 km (ida/vuelta)</li>
+                                <li>Desnivel 450m subida/bajada</li>
+                                <li>Permiso no necesario</li>
+                                
+                            </p>
+                            <button class="rutabutton"><strong>+info</strong></button>
+                        </div>
+                    </div>
+
+
+                    <div class="card">
+                        <img src="./img/cardsrutas/cimatorreon.jpg" alt="">
+                        <div class="card__content">
+                            <p class="card__title">Torreon</p>
+                            <p class="card__description">
+                                <li>Inicio de ruta en km40 ruta Benamahoma-Grazalema</li>
+                                <li>Recorrido total: 6 km (ida/vuelta)</li>
+                                <li>Desnivel 820m de subida y bajada</li>
+                                <li>Permiso necesario</li>
+                                
+                            </p>
+                            <button class="rutabutton"><strong>+info</strong></button>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </section>
+
+
+
+        <section class="wrapsection" id="explora">
+            <h1>Explora el lugar</h1>
+            <div class="row">
+                <div class="column">
+                    <div class="containergallery">
+                        <img src="./img/gallery/1graz.jpg" alt="Avatar" class="image">
+                        <div class="overlay">Grazalema</div>
+                    </div>
+    
+                    <div class="containergallery">
+                        <img src="./img/gallery/2graz.jpg" alt="Avatar" class="image">
+                        <div class="overlay">Grazalema</div>
+                    </div>
+                  
+                    <div class="containergallery">
+                        <img src="./img/gallery/3graz.jpg" alt="Avatar" class="image">
+                        <div class="overlay">Grazalema</div>
+                    </div>
+                    <div class="containergallery">
+                        <img src="./img/gallery/4pins.jpg" alt="Avatar" class="image">
+                        <div class="overlay">Pinsapar</div>
+                    </div>
+
+                    <div class="containergallery">
+                        <img src="./img/gallery/5pins.jpg" alt="Avatar" class="image">
+                        <div class="overlay">Pinsapar</div>
+                    </div>
+
+                    <div class="containergallery">
+                        <img src="./img/gallery/6pins.jpg" alt="Avatar" class="image">
+                        <div class="overlay">Pinsapar</div>
+                    </div>
+
+                    
+    
+                </div>
+
+                <div class="column">
+                    <div class="containergallery">
+                        <img src="./img/gallery/9pins.jpg" alt="Avatar" class="image">
+                        <div class="overlay">Pinsapar</div>
+                    </div>
+    
+                    <div class="containergallery">
+                        <img src="./img/gallery/10torr.jpg" alt="Avatar" class="image">
+                        <div class="overlay">Torreón</div>
+                    </div>
+                  
+                    <div class="containergallery">
+                        <img src="./img/gallery/11torrnev.jpg" alt="Avatar" class="image">
+                        <div class="overlay">Torreón</div>
+                    </div>
+                    <div class="containergallery">
+                        <img src="./img/gallery/12torrnev.jpg" alt="Avatar" class="image">
+                        <div class="overlay">Torreón</div>
+                    </div>
+
+                    <div class="containergallery">
+                        <img src="./img/gallery/13graz.jpg" alt="Avatar" class="image">
+                        <div class="overlay">Grazalema</div>
+                    </div>
+
+                    <div class="containergallery">
+                        <img src="./img/gallery/14graz.jpg" alt="Avatar" class="image">
+                        <div class="overlay">Grazalema</div>
+                    </div>
+
+                    
+    
+                </div>
+
+                <div class="column">
+                    <div class="containergallery">
+                        <img src="./img/gallery/17cruz.jpg" alt="Avatar" class="image">
+                        <div class="overlay">Cruz en ruta</div>
+                    </div>
+    
+                    <div class="containergallery">
+                        <img src="./img/gallery/18graz.jpg" alt="Avatar" class="image">
+                        <div class="overlay">Grazalema</div>
+                    </div>
+                  
+                    <div class="containergallery">
+                        <img src="./img/gallery/19boyar.jpg" alt="Avatar" class="image">
+                        <div class="overlay">Puerto del boyar</div>
+                    </div>
+                    <div class="containergallery">
+                        <img src="./img/gallery/20llano.jpg" alt="Avatar" class="image">
+                        <div class="overlay">Llano del endrinal</div>
+                    </div>
+
+                    <div class="containergallery">
+                        <img src="./img/gallery/21graz.jpg" alt="Avatar" class="image">
+                        <div class="overlay">Grazalema</div>
+                    </div>
+
+                    <div class="containergallery">
+                        <img src="./img/gallery/22torr.jpg" alt="Avatar" class="image">
+                        <div class="overlay">Torreón</div>
+                    </div>
+
+                                       
+    
+                </div>
+
+                <div class="column">
+                    <div class="containergallery">
+                        <img src="./img/gallery/24llannev.jpg" alt="Avatar" class="image">
+                        <div class="overlay">Llano del endrinal</div>
+                    </div>
+    
+                    <div class="containergallery">
+                        <img src="./img/gallery/23llanonev.jpg" alt="Avatar" class="image">
+                        <div class="overlay">Llano del endrinal</div>
+                    </div>
+                  
+                    <div class="containergallery">
+                        <img src="./img/gallery/15pins.jpg" alt="Avatar" class="image">
+                        <div class="overlay">Pinsapar</div>
+                    </div>
+
+                    <div class="containergallery">
+                        <img src="./img/gallery/16graz.jpg" alt="Avatar" class="image">
+                        <div class="overlay">Grazalema</div>
+                    </div>
+
+                    <div class="containergallery">
+                        <img src="./img/gallery/7pins.jpg" alt="Avatar" class="image">
+                        <div class="overlay">Pinsapar</div>
+                    </div>
+
+                    <div class="containergallery">
+                        <img src="./img/gallery/8pins.jpg" alt="Avatar" class="image">
+                        <div class="overlay">Pinsapar</div>
+                    </div>
+
+                    
+    
+                </div>
+                
+            </div>
+        </section>
+        <section class="wrapsection" id="bandoleros">
+            <h1>Bandoleros</h1>
+            <div class="grid-2band1">
+
+                <div class="col-2band">
+                    <button class="accordion">¿Qué es?</button>
+                    <div class="panel">
+                        <p>"Los bandoleros" son una representación teatral anual sobre algunos sucesos que tuvieron lugar en la Sierra y alrededores sobre la vida de El Tempranillo.</p>
+                    </div>
+                </div>
+
+                <div class="col-2band">
+                    <img id="bandimg" src="./img/bandoleros/bandintro.jpg" alt="Teatro al aire exterior">
+                </div>
+
+            </div>
+
+            <div class="grid-2band2">
+                
+                <div class="col-2band">
+                    <img id="bandimg" src="./img/bandoleros/bandteatro.jpg" alt="Teatro al aire exterior">
+                </div>
+
+                <div class="col-2band">
+                    <button class="accordion">¿Dónde?</button>
+                    <div class="panel">
+                        <p>A lo largo del fin de semana, se caracteriza el pueblo a la época y se realiza una obra de teatro en actos en los diferentes escenarios.</p>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="grid-2band1">
+
+                <div class="col-2band">
+                    <button class="accordion">Qué más hacer</button>
+                    <div class="panel">
+                        <p>También podrás encontrar multitud de puestos con comida de la época como migas, revueltos, paella... Y también de bebida como vino dulce y pacharán.</p>
+                    </div>
+                </div>
+
+                <div class="col-2band">
+                    <img id="bandimg" src="./img/bandoleros/bandpuesto.jpg" alt="Teatro al aire exterior">
+                </div>
+
+            </div>
+
+            <div class="grid-2band2">
+                
+                <div class="col-2band">
+                    <img id="bandimg" src="./img/bandoleros/bandtumbas.jpg" alt="Teatro al aire exterior">
+                </div>
+
+                <div class="col-2band">
+                    <button class="accordion">Además</button>
+                    <div class="panel">
+                        <p>Aún con final trágico, podrás disfrutar de la multitud de actos y de varios cantos flamencos que realizan a lo largo de la obra.</p>
+                    </div>
+                </div>
+                
+                
+            </div>
+
+        </section>
+    </div>
+
+
+
+
+    <footer>
+        <div class="grid-3footer">
+            <div class="col-4">
+                <h3>Sígueme en GitHub:</h3>
+                <a href="https://github.com/JuanFranCM" target="_blank">
+                    <button class="githubbutton">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 0.296997C5.37 0.296997 0 5.67 0 12.297C0 17.6 3.438 22.097 8.205 23.682C8.805 23.795 9.025 23.424 9.025 23.105C9.025 22.82 9.015 22.065 9.01 21.065C5.672 21.789 4.968 19.455 4.968 19.455C4.422 18.07 3.633 17.7 3.633 17.7C2.546 16.956 3.717 16.971 3.717 16.971C4.922 17.055 5.555 18.207 5.555 18.207C6.625 20.042 8.364 19.512 9.05 19.205C9.158 18.429 9.467 17.9 9.81 17.6C7.145 17.3 4.344 16.268 4.344 11.67C4.344 10.36 4.809 9.29 5.579 8.45C5.444 8.147 5.039 6.927 5.684 5.274C5.684 5.274 6.689 4.952 8.984 6.504C9.944 6.237 10.964 6.105 11.984 6.099C13.004 6.105 14.024 6.237 14.984 6.504C17.264 4.952 18.269 5.274 18.269 5.274C18.914 6.927 18.509 8.147 18.389 8.45C19.154 9.29 19.619 10.36 19.619 11.67C19.619 16.28 16.814 17.295 14.144 17.59C14.564 17.95 14.954 18.686 14.954 19.81C14.954 21.416 14.939 22.706 14.939 23.096C14.939 23.411 15.149 23.786 15.764 23.666C20.565 22.092 24 17.592 24 12.297C24 5.67 18.627 0.296997 12 0.296997Z" fill="white"></path>
+                        </svg>
+                        <p class="textgithub">Click me</p>
+                    </button>
+                </a>
+                
+                <h3>Portal de turismo oficial</h3>
+                <a href="https://www.grazalema.es/" target="blank"><p>Página online</p></a>
+                
+                <!-- Trigger/Open The Modal -->
+                <h3 id="myBtn">Créditos</h3>
+
+                <!-- The Modal -->
+                <div id="myModal" class="modal">
+
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <h1>Favicon:</h1>
+                        <a href="https://www.iconsdb.com/green-icons/mountain-icon.html" target="_blank">
+                            <p2>IconSDB: Green mountain icon</p2>
+                        </a>
+                        <h1>Images</h1>
+                        <p2>All rights reserved. No part of this publication can be used without the prior permission of the publisher.</p2>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="col-4">
+                <a href="#"><p>Inicio</p></a>
+                <a href="#intro"><p>Introducción</p></a>
+                <a href="#rutas"><p>Rutas</p></a>
+                <a href="#explora"><p>Explora el lugar</p></a>
+                <a href="#bandoleros"><p>Bandoleros</p></a>
+                
+                
+            </div>
+            <div class="col-2">
+                <!--google maps-->
+                <div class="container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3196.4623993848186!2d-5.370657073665833!3d36.75947321999354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0d3e6dde717be7%3A0xe2d4f5de40e13081!2s11610%20Grazalema%2C%20C%C3%A1diz!5e0!3m2!1ses!2ses!4v1701870036269!5m2!1ses!2ses" class="responsive-iframe" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/grazalematribute.js"></script>
+</body>
+</html>
