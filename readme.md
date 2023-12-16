@@ -71,7 +71,7 @@ Sobre ella he colocado un Call to Action que he estilado a partir de un botón p
   <li>Barra de navegación: tomada de w3Schools https://www.w3schools.com/howto/howto_js_topnav_responsive.asp</li>
   <li>Botones: tomados de uiverse.io buttons: https://uiverse.io/nikk7007/chatty-bulldog-58, https://uiverse.io/e-coders/new-shrimp-32</li>
   <li>Cards rutas: tomados de uiverse.io cards: https://uiverse.io/gharsh11032000/selfish-owl-57</li>
-  <li>Cards explorar: tomados de w3schools usando overlay: https://www.w3schools.com/howto/howto_css_image_overlay_title.asp<li>
-  <li>Accordion Bandoleros: tomado de w3schools: https://www.w3schools.com/howto/howto_js_accordion.asp<li>
+  <li>Cards explorar: tomados de w3schools usando overlay: https://www.w3schools.com/howto/howto_css_image_overlay_title.asp</li>
+  <li>Accordion Bandoleros: tomado de w3schools: https://www.w3schools.com/howto/howto_js_accordion.asp</li>
   <li>Ventana modal de créditos: tomado de w3schools: https://www.w3schools.com/howto/howto_css_modals.asp</li>
 </ul>
